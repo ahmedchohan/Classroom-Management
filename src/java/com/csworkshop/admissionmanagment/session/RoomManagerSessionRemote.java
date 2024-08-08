@@ -13,5 +13,11 @@ import javax.ejb.Remote;
 @Remote
 
 public interface RoomManagerSessionRemote {
+
+    public void addRoom();
+
+    public void getRoombyDepartment_Id();
+
+    public void getRoombyFloor_Id();
     
 }

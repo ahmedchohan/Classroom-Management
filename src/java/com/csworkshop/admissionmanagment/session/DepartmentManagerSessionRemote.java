@@ -13,5 +13,15 @@ import javax.ejb.Remote;
 @Remote
 
 public interface DepartmentManagerSessionRemote {
+
+    public void addDepartment();
+
+    public void getDepartmentbyName();
+
+    public void updateDepartmentStatus();
+
+    public void getallDepartment();
+
+    public void getDepartmentbyBlock_Id();
     
 }
