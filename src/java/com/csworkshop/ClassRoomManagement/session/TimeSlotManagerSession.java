@@ -11,7 +11,7 @@ import javax.ejb.Stateless;
  * @author SEHRISH AZMAT
  */
 @Stateless
-public class TimeSlotManagerSession implements TimeSlotManagerSessionLocal {
+public class TimeSlotManagerSession implements TimeSlotManagerSessionRemote {
 
     // Add business logic below. (Right-click in editor and choose
     // "Insert Code > Add Business Method")

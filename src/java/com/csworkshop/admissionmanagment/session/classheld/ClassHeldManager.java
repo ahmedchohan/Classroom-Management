@@ -51,6 +51,8 @@ public class ClassHeldManager implements ClassHeldManagerRemote {
         em.persist(classHeld);
         return classHeld;
     }
+    
+    
 
     public void persist(Object object) {
         em.persist(object);

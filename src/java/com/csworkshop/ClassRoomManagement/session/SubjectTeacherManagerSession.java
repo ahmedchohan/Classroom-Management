@@ -11,7 +11,7 @@ import javax.ejb.Stateless;
  * @author SEHRISH AZMAT
  */
 @Stateless
-public class SubjectTeacherManagerSession implements SubjectTeacherManagerSessionLocal {
+public class SubjectTeacherManagerSession implements SubjectTeacherManagerSessionRemote {
 
     // Add business logic below. (Right-click in editor and choose
     // "Insert Code > Add Business Method")

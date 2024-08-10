@@ -19,5 +19,9 @@ public interface RoomManagerSessionRemote {
     public void getRoombyDepartment_Id();
 
     public void getRoombyFloor_Id();
+
+    public void getRoombyDepartmentId();
+
+    public void getRoombyFloorId();
     
 }

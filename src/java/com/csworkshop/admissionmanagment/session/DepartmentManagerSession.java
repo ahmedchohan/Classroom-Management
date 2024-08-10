@@ -26,11 +26,25 @@ public void updateDepartmentStatus(){
     
 }
 
-public void getDepartmentbyBlock_Id (){
+public void getDepartmentbyBlockId (){
     
 }
-public void getallDepartment (){
+
+public void getDepartmentbyDepartmentId(){
     
 }
+public void getAllDepartment (){
+    
+}
+
+    @Override
+    public void getallDepartment() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public void getDepartmentbyBlock_Id() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 
 }

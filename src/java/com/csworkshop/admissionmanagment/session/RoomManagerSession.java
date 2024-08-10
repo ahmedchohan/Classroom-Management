@@ -19,11 +19,21 @@ public class RoomManagerSession implements RoomManagerSessionRemote {
     public void addRoom(){
         
     }
-    public void getRoombyDepartment_Id(){
+    public void getRoombyDepartmentId(){
         
     }
-    public void getRoombyFloor_Id(){
+    public void getRoombyFloorId(){
         
+    }
+
+    @Override
+    public void getRoombyDepartment_Id() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public void getRoombyFloor_Id() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
     

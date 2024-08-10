@@ -5,12 +5,13 @@
 package com.csworkshop.ClassRoomManagement.session;
 
 import javax.ejb.Local;
+import javax.ejb.Remote;
 
 /**
  *
  * @author SEHRISH AZMAT
  */
-@Local
-public interface SubjectManagerSessionLocal {
+@Remote
+public interface TeacherManagerSessionRemote {
     
 }

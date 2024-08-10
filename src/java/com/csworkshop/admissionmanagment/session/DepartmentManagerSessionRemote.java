@@ -23,5 +23,11 @@ public interface DepartmentManagerSessionRemote {
     public void getallDepartment();
 
     public void getDepartmentbyBlock_Id();
+
+    public void getDepartmentbyBlockId();
+
+    public void getDepartmentbyDepartmentId();
+
+    public void getAllDepartment();
     
 }

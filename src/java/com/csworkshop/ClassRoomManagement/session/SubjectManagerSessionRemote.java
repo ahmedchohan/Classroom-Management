@@ -11,9 +11,6 @@ import javax.ejb.Remote;
  * @author SEHRISH AZMAT
  */
 @Remote
-public interface SmesterManagerSessionLocal {
-
-
-    public void addSemester();
+public interface SubjectManagerSessionRemote {
     
 }
