@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/J2EE/EJB30/SessionLocal.java to edit this template
  */
-package com.csworkshop.admissionmanagment.session;
+package com.csworkshop.admissionmanagment.session.DepartmentManager;
 
 import javax.ejb.Remote;
 
@@ -22,12 +22,9 @@ public interface DepartmentManagerSessionRemote {
 
     public void getallDepartment();
 
-    public void getDepartmentbyBlock_Id();
-
-    public void getDepartmentbyBlockId();
+     public void getDepartmentbyBlockId();
 
     public void getDepartmentbyDepartmentId();
 
-    public void getAllDepartment();
-    
+  
 }
